@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>biografiku</title>
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #008080;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:#87CEEB;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+footer {
+  background-color:#008080;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Biografi</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">makanan</a></li>
+      <li><a href="#">minuman</a></li>
+      <li><a href="#">music</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>intanelva</h1>
+    <p>Hallo saya intan</p>
+    <p>saya suka musik pop </p>
+  </article>
+</section>
+
+<footer>
+  <p>by.intanelva</p>
+</footer>
+</body>
+</html>
